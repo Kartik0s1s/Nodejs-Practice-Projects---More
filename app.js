@@ -1,7 +1,7 @@
 
-var fs= require("fs");
+// var fs= require("fs");
 
-fs.writeFileSync("Kartik.txt", "my name is kartik");
+// fs.writeFileSync("Kartik.txt", "my name is kartik");
 
 
 // let V1="apple";
@@ -10,6 +10,8 @@ fs.writeFileSync("Kartik.txt", "my name is kartik");
 // }
 // fruite("Banana");
 // fruite(V1);
+
+
 
 
 
