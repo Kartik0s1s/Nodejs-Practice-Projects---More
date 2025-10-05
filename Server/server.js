@@ -12,7 +12,7 @@ const http = require("http");
 const colors= require("colors");
 
 const server1 = http.createServer((req, resp) => {
-  resp.write("<h1>This is server 1</h1>");
+  resp.write("<h1>This is server 1 Smoothly</h1>");
   resp.end("We are done with processing");
 });
 server1.listen(4000, () => {
@@ -24,10 +24,8 @@ const server2 = http.createServer((req, resp) => {
   resp.end("We are done with processing");
 });
 server2.listen(4001, () => {
-  console.log("Serve is running".green);
+  console.log("Serve is running");
 });
 
 
-//
-//
-//
+ 
